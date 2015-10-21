@@ -5,8 +5,8 @@ Some moments were not clear from the task, so...
 ## Assumptions
 
 System - the whole workaround
-Programmer - the person making most of actions
-Coffee machine - the machine producing coffee, allowing 2 programmers to work with it at the same time
+<br />Programmer - the person making most of actions
+<br />Coffee machine - the machine producing coffee, allowing 2 programmers to work with it at the same time<p>
 
 * the favourite coffee will be assigned to each Programmer randomly
 * cash or electronic payment method will be defined randomly per Programmer
