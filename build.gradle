@@ -1,0 +1,19 @@
+group 'gg'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+
+repositories {
+    jcenter()
+}
+
+project.ext.versionSlf4j = '1.7.+'
+
+dependencies {
+    compile group: 'org.slf4j', name: 'slf4j-api', version: project.versionSlf4j
+    runtime group: 'org.slf4j', name: 'slf4j-simple', version: project.versionSlf4j
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
